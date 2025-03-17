@@ -1,0 +1,156 @@
+/* CSS Document */
+body#loginform h1,
+body#loginform a.logo {
+    display: block;
+    text-align: center;
+}
+
+body#loginform {
+    margin-top: 1em;
+    text-align: center;
+}
+
+body#loginform div.container {
+    text-align: left;
+    width: 30em;
+    margin: 0 auto;
+}
+
+form.login label {
+    float: left;
+    width: 10em;
+    font-weight: bolder;
+}
+
+.commented_column {
+    border-bottom: 1px dashed #000;
+}
+
+.column_attribute {
+    font-size: 70%;
+}
+form {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.error {
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+	text-align: center;
+}
+
+fieldset {
+	box-shadow:35px 35px 200px white;
+	margin-top: 1em;
+	border-radius: 4px 4px 0 0;
+
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+	border: #aaa solid 1px;
+	padding: 1.5em;
+	background: #fff;
+	text-shadow: 1px 1px 2px #fff inset;
+
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+	box-shadow: 1px 1px 2px #fff inset;
+	background-color: #FFFFFF;
+}
+
+fieldset fieldset {
+    margin: .8em;
+    background: #fff;
+    border: 1px solid #aaa;
+    background: #E8E8E8;
+
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #fff;
+}
+input {
+	height:30px;
+	font-size:16px;
+	border-radius:4px;
+	border:1px solid #b8b8b8;
+	vertical-align:middle;
+	line-height:30px;
+	color:#666;
+	padding-top: 0;
+	padding-right: 1px;
+	padding-bottom: 0;
+	padding-left: 1px;
+	}
+/*input:hover {
+	box-shadow:2px 2px 20px green;
+}*/
+input:focus{
+	outline:5;
+   -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	border: 2px solid #FF0000;
+}
+
+form input[type="submit"] {
+	background: rgb(254,231,154);
+	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	cursor: pointer;
+	float: right;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 20px 0 35px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 120px;
+}
+input[type="submit"]:hover {
+	background: rgb(254,193,81);
+	background: -moz-linear-gradient(top,  rgba(254,193,81,1) 0%, rgba(254,231,154,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+}.submit {
+	text-align: center;
+	width: 150px;
+}
+#logindiv {
+	width: 500px;
+	position: absolute;
+	left: 404px;
+	top: 111px;
+}
+label {
+	font-family: "Trebuchet MS";
+}
