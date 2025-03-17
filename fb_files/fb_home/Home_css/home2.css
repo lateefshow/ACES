@@ -1,0 +1,52 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#Layer1 {
+	position:absolute;
+	width:678px;
+	height:47px;
+	z-index:1;
+	left: 331px;
+	top: 48px;
+}
+
+input {
+	height:27px;
+	width:500px;
+   background-color:#fff;
+   border:1px solid #ccc;
+   -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+   -moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+   box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+   -webkit-transition:border linear .2s,box-shadow linear .2s;
+   -moz-transition:border linear .2s,box-shadow linear .2s;
+   -o-transition:border linear .2s,box-shadow linear .2s;
+   transition:border linear .2s,box-shadow linear .2s
+}
+input:focus {
+   border-color:rgba(82,168,236,0.8);
+   outline:0;
+   outline:thin dotted \9;
+   -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+   -moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+   box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)
+}
+input[type="submit"] {
+	width:56px;
+	height:27px;
+	font-size:24px;
+}
+input:hover {
+   outline:thin dotted #FF0000;
+   outline:5px auto -webkit-focus-ring-color;
+   outline-offset:-2px
+}
+
+
+.header {
+	padding-left: 20px;
+}
